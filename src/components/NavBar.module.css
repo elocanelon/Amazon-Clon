@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #fff;
+    padding: 10px 10px 5px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.navbar > img {
+    width: 80px;    
+}

@@ -1,0 +1,58 @@
+ProductData{
+    width: 50%;
+}
+
+.ProductTitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 24px;
+    
+}
+
+.ProductDescription {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.productImage{
+    width: 100%;
+    max-width: 80px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.SelectedProductImage{
+    border: 2px solid cadetblue;
+}
+
+.featureItem{
+    background-color: aquamarine;
+    border-radius: 8px;
+    border: 0;
+    padding: 12px 24px;
+    text-align: center;
+    margin-right: 12px;
+    cursor: pointer;
+    font-weight: bolder;
+    box-sizing: content-box;
+}
+
+.SelectedFeatureItem{
+    color: white;
+    background-color: gray;
+}
+
+.BuyNowBtn{
+    color: white;
+    background-color: darkcyan;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 0;
+    padding: 10px 20px;
+    margin-top: 24px;
+    cursor: pointer;
+}
